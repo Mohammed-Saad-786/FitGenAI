@@ -7,9 +7,12 @@ import streamlit as st
 
 load_dotenv()
 
-client = Groq(
-    api_key=st.secrets["GROQ_API_KEY"]
-)
+api_key = os.getenv("GROQ_API_KEY")
+
+if not api_key:
+    api_key = st.secrets["GROQ_API_KEY"]
+
+client = Groq(api_key=api_key)
 
 def generate_plan(user_profile):
 
