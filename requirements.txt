@@ -1,4 +1,10 @@
 streamlit
+groq
+python-dotenv
+langchain
+langchain-community
+sentence-transformers
+faiss-cpu
+plotly
 pandas
 numpy
-plotly
