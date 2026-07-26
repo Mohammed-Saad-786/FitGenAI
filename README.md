@@ -259,23 +259,38 @@ http://localhost:8501
 ```text
 FitGenAI/
 │
-├── ai/
-│   ├── workout_generator.py
-│   ├── diet_generator.py
-│   └── prompts.py
+├── .devcontainer/                  # Development container configuration
+│   └── devcontainer.json
 │
-├── rag/
+├── ai/                             # AI modules
+│   ├── chatbot.py                  # AI fitness chatbot
+│   ├── diet_generator.py           # Diet plan generator
+│   └── workout_generator.py        # Workout plan generator
 │
-├── rag_store/
+├── data/                           # Dataset and knowledge base
+│   ├── meals.txt                   # Meal recommendations
+│   └── workouts.txt                # Workout recommendations
 │
-├── data/
+├── pages/                          # Streamlit multipage modules
+│   ├── 4_AI_Coach.py               # AI Coach interface
+│   ├── 5_progress.py               # Progress tracker
+│   └── 6_Responsible_AI.py         # Responsible AI information
 │
-├── pages/
+├── rag/                            # Retrieval-Augmented Generation
+│   ├── embed.py                    # Embedding generation
+│   └── retrieval.py                # Document retrieval
 │
-├── app.py
-├── requirements.txt
-├── .env
-└── README.md
+├── rag_store/                      # Stored vector database
+│   ├── documents.pkl               # Embedded document store
+│   └── vectorizer.pkl              # Saved vectorizer
+│
+├── app.py                          # Main Streamlit application
+├── progress.csv                    # User progress data
+├── requirements.txt                # Project dependencies
+├── test_ai.py                      # AI module tests
+├── test_rag.py                     # RAG pipeline tests
+├── README.md                       # Project documentation
+└── .gitignore                      # Git ignored files
 ```
 
 ---
