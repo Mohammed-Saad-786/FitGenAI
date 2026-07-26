@@ -205,7 +205,7 @@ FitGenAI automatically calculates:
 
 
 
----
+
 
 # 🚀 Live Demo
 
