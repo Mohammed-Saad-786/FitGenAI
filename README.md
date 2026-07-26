@@ -12,6 +12,7 @@
 ![GitHub Last Commit](https://img.shields.io/github/last-commit/Mohammed-Saad-786/FitGenAI?style=for-the-badge)
 ![GitHub Top Language](https://img.shields.io/github/languages/top/Mohammed-Saad-786/FitGenAI?style=for-the-badge&color=yellow)
 ![License](https://img.shields.io/github/license/Mohammed-Saad-786/FitGenAI?style=for-the-badge)
+![Visitors](https://komarev.com/ghpvc/?username=Mohammed-Saad-786&repo=FitGenAI&label=Visitors&color=22C55E&style=for-the-badge)
 
 <br>
 
@@ -140,30 +141,54 @@ Generates:
 
 # 🧠 AI Workflow
 
+<div align="center">
+
 ```text
-User Inputs
-      │
-      ▼
-Health Analysis
-(BMI • BMR • Calories • Protein)
-      │
-      ▼
-LangChain
-      │
-      ▼
-Groq LLM
-      │
-      ▼
-AI Workout Generator
-      │
-      ▼
-AI Diet Planner
-      │
-      ▼
-Personalized Fitness Plan
+┌───────────────────────────────────────────────┐
+│              👤 USER PROFILE                  │
+│  Age • Gender • Height • Weight • Goal        │
+└───────────────────────────────────────────────┘
+                     │
+                     ▼
+┌───────────────────────────────────────────────┐
+│          📊 HEALTH ANALYSIS                   │
+│     BMI • BMR • Calories • Protein            │
+└───────────────────────────────────────────────┘
+                     │
+                     ▼
+┌───────────────────────────────────────────────┐
+│        🧠 RAG KNOWLEDGE RETRIEVAL             │
+│     Workout & Nutrition Knowledge Base        │
+└───────────────────────────────────────────────┘
+                     │
+                     ▼
+┌───────────────────────────────────────────────┐
+│        ⚡ LANGCHAIN ORCHESTRATION             │
+└───────────────────────────────────────────────┘
+                     │
+                     ▼
+┌───────────────────────────────────────────────┐
+│        🤖 GROQ LARGE LANGUAGE MODEL           │
+└───────────────────────────────────────────────┘
+                     │
+         ┌───────────┴───────────┐
+         ▼                       ▼
+┌───────────────────┐   ┌───────────────────┐
+│ 🏋️ WORKOUT PLAN   │   │ 🥗 DIET PLAN      │
+│   Generator        │   │   Generator       │
+└───────────────────┘   └───────────────────┘
+         │                       │
+         └───────────┬───────────┘
+                     ▼
+┌───────────────────────────────────────────────┐
+│      🎯 PERSONALIZED FITNESS PLAN             │
+└───────────────────────────────────────────────┘
+                     │
+                     ▼
+          📈 Smarter • Healthier • Stronger
 ```
 
----
+</div>
 
 # 📊 Health Metrics Calculated
 
@@ -184,9 +209,19 @@ FitGenAI automatically calculates:
 
 # 🚀 Live Demo
 
-https://fitgenai-786.streamlit.app/
+<div align="center">
 
----
+[![Open in Streamlit](https://img.shields.io/badge/Streamlit-Live%20App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://fitgenai-786.streamlit.app/)
+
+[![Status](https://img.shields.io/badge/Status-Online-22C55E?style=for-the-badge)](https://fitgenai-786.streamlit.app/)
+
+### 🌍 Try FitGenAI
+
+**Generate AI-powered workout plans, personalized diets, and complete health analysis in seconds.**
+
+**👉 https://fitgenai-786.streamlit.app/**
+
+</div>
 
 # ⚙️ Installation
 
@@ -360,25 +395,44 @@ This project is licensed under the **MIT License**.
 ---
 
 
----
+
 
 # 📬 Contact
 
-**Mohammed Saad**
+<div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Mohammed--Saad--786-181717?style=for-the-badge&logo=github)](https://github.com/Mohammed-Saad-786)
+&nbsp;&nbsp;&nbsp;
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Saad-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-saad-tech)
+&nbsp;&nbsp;&nbsp;
+[![Email](https://img.shields.io/badge/Email-555mohammedsaad%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:555mohammedsaad@gmail.com)
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mohammed%20Saad-blue?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/mohammed-saad-tech)
-
-[![Email](https://img.shields.io/badge/Email-555mohammedsaad@gmail.com-red?style=for-the-badge&logo=gmail)](mailto:555mohammedsaad@gmail.com)
+</div>
 
 ---
 
+
 <div align="center">
 
-### ⭐ If you found this project helpful, consider giving it a star!
+### 💪 Fitness Meets Artificial Intelligence
+### 🌟 Transform Your Fitness Journey with AI
 
-**Built with ❤️ by Mohammed Saad**
+*"Your personalized AI companion for a healthier tomorrow."*
+
+<br>
+
+⭐ **Like the project? Give it a star!**  
+🐛 **Found a bug? Open an issue!**  
+🚀 **Have an idea? Submit a pull request!**
+
+<br>
+
+### 🏋️ Stay Fit • 🥗 Eat Smart • 🤖 Train with AI
+
+<br>
+
+
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=22C55E&height=120&section=footer"/>
 
